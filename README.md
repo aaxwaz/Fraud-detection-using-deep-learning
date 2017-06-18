@@ -5,7 +5,7 @@ In summary, it contains 284,807 credit card transactions over 48 hours. It total
 
 It is pretty unbalanced - around 0.17% are fraud and the rest are all genuine. The challenge is to build a decent model that is able to tell which are fraud transactions based on the given features of around 30 in total. 
 
-The data set is split based on time series column (unit is in second). The earlier 75% are used as training and validation data, whereas the last 25% are test. AUC (Area Under the ROC Curve) is used as evaluation metric to measure the performance of models. A score around 0.95 is reported for test data. 
+The data set is split based on time series column (unit is in second). The earlier 75% are used as training and validation data, whereas the last 25% are test. AUC (Area Under the ROC Curve) is used as evaluation metric to measure the performance of models. Scores of around 0.95 are reported for our models on test data set. 
 
 # Auto-encoder model 
 We are using auto-encoder for unsupervised training - namely, we train auto-encoder on all training data without labelling. 
