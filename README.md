@@ -14,3 +14,4 @@ Also, we tried to explore using auto-encoder as a data pre-processing step, whic
 
 Please refer to ipython notebook for details about modeling and results. 
 
+I have also written a [post](https://weiminwang.blog/2017/06/23/credit-card-fraud-detection-using-auto-encoder-in-tensorflow-2/) explaining the details. 
